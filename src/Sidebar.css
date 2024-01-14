@@ -48,5 +48,10 @@
    font-size: 24px !important;
 }
 
-
+.sidebar__chats{
+   display: flex;
+   flex-direction: column;
+   background-color: white;
+   overflow: scroll;
+}
 
