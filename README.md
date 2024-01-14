@@ -1,4 +1,4 @@
-#  [Aditya Tech & Devops](https://adityatechndevops.web.app) &copy; - 2024
+#  [Aditya Tech. & Devops](https://adityatechndevops.web.app) &copy; - 2024
 ### Created MERN Stack based - [Whatsapp Clone](https://)
 #### Available Scripts
 In the project directory, you can run:
