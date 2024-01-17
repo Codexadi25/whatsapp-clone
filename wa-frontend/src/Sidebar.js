@@ -32,7 +32,7 @@ function Sidebar() {
       <div className='sidebar__search'>
          <div className='sidebar__searchContainer'>
             <SearchIcon/>
-            <input type='text' placeholder='Search here to start chat.'/>
+            <input className='searchinput' type='text' placeholder='Search here to start chat.'/>
          </div>
       </div>
       <div className='sidebar__chats'>
