@@ -53,7 +53,7 @@ function Chat() {
       </div>
       <div className='chat__footer'>
         <IconButton>
-          <SentimentSatisfiedAltSharpIcon/>
+          <SentimentSatisfiedAltSharpIcon />
         </IconButton>
         <form>
           <input placeholder='Type a message' type='text'/>
