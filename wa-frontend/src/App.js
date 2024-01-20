@@ -2,13 +2,17 @@ import './App.css';
 import Sidebar from './Sidebar';
 import Chat from './Chat';
 import Pusher from "pusher-js";
-import { useEffect } from 'react';
-
+import { useEffect, useState } from 'react';
+import axios from './axios';
 
 function App() {
 
-  useEffect(() => {
+  const [ messages, setMessages ] = useState([]);
 
+  useEffect(() => {
+    axios.get('/messages/sync').then((response) => {
+      setMessages(response.data)
+    })
   })
 
   useEffect(() => {
