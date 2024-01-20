@@ -1,30 +1,11 @@
 import './App.css';
 import Sidebar from './Sidebar';
 import Chat from './Chat';
-import Pusher from "pusher-js";
-import { useEffect, useState } from 'react';
-import axios from './axios';
+
 
 function App() {
 
-  const [ messages, setMessages ] = useState([]);
-
-  useEffect(() => {
-    axios.get('/messages/sync').then((response) => {
-      setMessages(response.data)
-    })
-  })
-
-  useEffect(() => {
-    var pusher = new Pusher('422488018a7574a0b5a3', {
-      cluster: 'ap2'
-    });
-
-    var channel = pusher.subscribe('my-channel');
-    channel.bind('my-event', function(data) {
-      alert(JSON.stringify(data));
-    });
-  }, [])
+  
 
   return (
     <div className="App">
