@@ -6,7 +6,7 @@ Aditya Tech. & Devops brings "AppChat".
 A cross-platform independent "chat-inside-an-app" tool, whish could be used in further development as an open source integration. 
 This app looks similar to whatsapp.
 
-### Fork Guide:
+
 #### Available Scripts
 In the project directory, you can run:
 ### `npm start`
